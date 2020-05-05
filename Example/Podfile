@@ -1,4 +1,6 @@
 use_frameworks!
+source 'https://github.com/CocoaPods/Specs.git'
+
 
 target 'LJJNetWork_Example' do
   pod 'LJJNetWork', :path => '../'

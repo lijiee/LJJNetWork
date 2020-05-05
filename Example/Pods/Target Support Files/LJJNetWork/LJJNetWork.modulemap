@@ -1,0 +1,6 @@
+framework module LJJNetWork {
+  umbrella header "LJJNetWork-umbrella.h"
+
+  export *
+  module * { export * }
+}
