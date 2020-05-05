@@ -1,10 +1,24 @@
 PODS:
+  - Alamofire (4.9.1)
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - LJJNetWork (0.1.0)
+  - LJJNetWork (0.1.0):
+    - Moya/RxSwift
+    - RxCocoa
+    - RxSwift
+  - Moya/Core (13.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.1)
+  - Moya/RxSwift (13.0.1):
+    - Moya/Core
+    - RxSwift (~> 4.0)
+  - Result (4.1.0)
+  - RxCocoa (4.5.0):
+    - RxSwift (>= 4.4.2, ~> 4.4)
+  - RxSwift (4.5.0)
 
 DEPENDENCIES:
   - FBSnapshotTestCase (~> 2.1.4)
@@ -12,15 +26,25 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
+    - Alamofire
     - FBSnapshotTestCase
+    - Moya
+    - Result
+    - RxCocoa
+    - RxSwift
 
 EXTERNAL SOURCES:
   LJJNetWork:
     :path: "../"
 
 SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  LJJNetWork: f6aa3fec584e86c9743b360d8b50fe755fb2ed07
+  LJJNetWork: c970ce736048d460e56d058f0f4eb85b559e086b
+  Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
+  RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
 
 PODFILE CHECKSUM: 913edbd66adfd97a60a4ab56a95fb1c5af7e3b4d
 

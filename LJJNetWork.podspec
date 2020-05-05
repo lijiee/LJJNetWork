@@ -40,6 +40,15 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'RxSwift'
   s.dependency 'RxCocoa'
+  s.dependency 'SwifterSwift'
   s.dependency 'Moya/RxSwift'
+  s.dependency 'ObjectMapper'
+  s.dependency 'SwiftDate'
+  s.dependency 'Kingfisher'
+  s.dependency 'Moya-ObjectMapper/RxSwift'
+  s.dependency 'EmptyPage'
+
+
+
 
 end

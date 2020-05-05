@@ -3,20 +3,31 @@
   "version": "0.1.0",
   "summary": "A short description of LJJNetWork.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/lijie/LJJNetWork",
+  "homepage": "https://github.com/lijiee/LJJNetWork",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "lijie": "lijie@chually.com"
+    "lijiee": "1028188271@qq.com"
   },
   "source": {
-    "git": "https://github.com/lijie/LJJNetWork.git",
+    "git": "https://github.com/lijiee/LJJNetWork.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "LJJNetWork/Classes/**/*"
+  "source_files": "LJJNetWork/Classes/**/*",
+  "dependencies": {
+    "RxSwift": [
+
+    ],
+    "RxCocoa": [
+
+    ],
+    "Moya/RxSwift": [
+
+    ]
+  }
 }
